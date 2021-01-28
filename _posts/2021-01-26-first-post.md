@@ -65,26 +65,26 @@ ORDER BY id ASC, title DESC
 
 < 프로그래머스 문제 풀어보기 >
 [프로그래머스 59034](https://programmers.co.kr/learn/courses/30/lessons/59034 "모든 레코드 조회하기")
-# 정답 (모든 데이터를 ID 순으로 조회하기)
-+ SELECT * 
++ 정답 (모든 데이터를 ID 순으로 조회하기)
+- SELECT * 
 From ANIMAL_INS
 ORDER BY ANIMAL_ID ASC
 
 [프로그래머스 59403](https://programmers.co.kr/learn/courses/30/lessons/59403 "동물 아이디와 이름")
-# 정답 (ID와 이름만 선택하여 가져오고 ID 내림차순 순으로 정렬한다)
-+ SELECT ANIMAL_ID, NAME
++ 정답 (ID와 이름만 선택하여 가져오고 ID 내림차순 순으로 정렬한다)
+- SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS
 ORDER BY ANIMAL_ID ASC
 
 [프로그래머스 59035](https://programmers.co.kr/learn/courses/30/lessons/59035 "역순 정렬하기")
-# 정답 (NAME과 DATATIME만 가져오고 DESC로 역순 정렬)
-+ SELECT NAME, DATETIME
++ 정답 (NAME과 DATATIME만 가져오고 DESC로 역순 정렬)
+- SELECT NAME, DATETIME
 FROM ANIMAL_INS
 ORDER BY ANIMAL_ID DESC
 
 [프로그래머스 59404](https://programmers.co.kr/learn/courses/30/lessons/59404  "여러기준 정렬하기")
-# 정답 (NAME을 기준으로 오름차순 정렬하고 NAME ASC, -> 같다면 DATETIME 기준으로 내림차순 DESC 기준이 되는 정렬을 먼저 써주면 됌 작은 따옴표로 )
-+ SELECT ANIMAL_ID, NAME, DATETIME
++ 정답 (NAME을 기준으로 오름차순 정렬하고 NAME ASC, -> 같다면 DATETIME 기준으로 내림차순 DESC 기준이 되는 정렬을 먼저 써주면 됌 작은 따옴표로 )
+- SELECT ANIMAL_ID, NAME, DATETIME
 FROM ANIMAL_INS
 ORDER BY NAME ASC, DATETIME DESC
 
