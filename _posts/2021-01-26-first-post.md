@@ -2,7 +2,7 @@
 title: "Welcome to SQL!"
 date: 2021-01-26 08:26:28 -0400
 categories: DataBase Basic
-#
+
 ---
 
 # basic 1 
@@ -89,7 +89,7 @@ ORDER BY ANIMAL_ID DESC
 FROM ANIMAL_INS
 ORDER BY NAME ASC, DATETIME DESC
 
-
+#database, #mysql
 
 
 
